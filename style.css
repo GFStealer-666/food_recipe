@@ -31,9 +31,9 @@ ul {
 
 .tittle-text{
     position : absolute;
-    top : 35px;
-    right: 40px;
-    font-size: 2rem;
+    top : 30%;
+    right: 6%;
+    font-size: 200%;
     font-family: "Montserrat";
     color : rgb(97, 94, 94);
 }
@@ -46,7 +46,7 @@ ul {
 .ramsey-img{
     position :inherit;
     padding-left: 30px;
-    width : 8%;
+    max-width : 10%;
 }
 /* FIRST CONTAINER */
 
@@ -177,6 +177,7 @@ ul {
     width: 30%;
     float: right;
     margin-right: 30px;
+    padding-left: 10%;
 }
 
 .instruction-container{
@@ -198,4 +199,146 @@ ul {
     text-align: center ;
     text-decoration: none;
     margin-bottom: 100px;
+}
+
+/* SCREEN SECTION */ 
+
+@media (max-width: 1028px) {
+
+.ramsey-img{
+    max-width: 15%;
+}
+
+.tittle-text{
+    font-size: 150%;
+    
+}
+
+.tittle-apple{
+    color: rgb(255, 0, 0);
+}
+
+.cinamon-tittle-pic{
+    position : absolute;
+    right : 10%;
+    top : 10%;
+    height : 70%;
+    transform: rotate(-30deg);
+    z-index: 1;
+}
+
+.ingredients-text{
+    font-size: 3.5rem;
+}
+
+
+#tittle-text{
+    position : inherit;
+    margin-top : 50px;
+    font-size : 4rem;
+    font-family: 'Gamja Flower', cursive;
+    
+}
+
+.tittle-second-line{
+    font-size: 3rem;
+    width : 100%;
+
+}
+
+.all-ingredients-text{
+    padding: 5% 15% 0px 15%;
+    font-size: 25px;
+}
+
+.instruction-container {
+    width: 70%;
+    margin: 1% auto 10% auto;
+
+}
+
+.instruction-img-right {
+    width: 30%;
+    float: right;
+    margin-right: 30px;
+    margin-left: 10px;
+}
+
+
+/* PHONE SECTION */
+
+@media (max-width: 550px){
+    .ramsey-img{
+        max-width: 15%;
+    }
+    
+    .tittle-text{
+        font-size: 100%;
+        
+    }
+    
+    
+    .cinamon-tittle-pic{
+        right : 10%;
+        top : 10%;
+        height : 60%;
+
+    }
+    
+    .ingredients-text{
+        font-size: 2rem;
+    }
+    
+    
+    #tittle-text{
+        position : inherit;
+        margin-top : 50px;
+        font-size : 2.5rem;
+        font-family: 'Gamja Flower', cursive;
+        
+    }
+    
+    .tittle-second-line{
+        font-size: 3rem;
+        width : 100%;
+    
+    }
+    
+    .all-ingredients-text{
+        padding: 5% 10% 0px 10%;
+        font-size: 110%;
+    }
+    
+    .ingredients-description{
+        font-size: 90%;
+    }
+    
+    .instruction-container {
+        width: 70%;
+        margin: 1% auto 10% auto;
+    
+        
+    }
+
+    .instruction{
+        font-size: 2rem;
+    }
+    
+   .instruction-img-right {
+        width: 30%;
+        float: right;
+        margin-right: 30px;
+        margin-left: 10px;
+    }
+
+    .instruction-img{
+        padding-bottom: 10%;
+    }
+
+    .first-instruction-text{
+        font-size: 120%;
+    }
+    
+    
+}
 }
